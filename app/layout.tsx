@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   },
   description: 'The official Next.js Course Dashboard, built with App Router.',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  openGraph: {
+    url: 'https://nextjs-dashboard-f4vauzp6s-hyunjinnos-projects.vercel.app',
+  },
 };
 
 export default function RootLayout({
